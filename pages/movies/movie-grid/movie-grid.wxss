@@ -1,0 +1,11 @@
+@import "../movie/movie-template.wxss";
+.more-container {
+  width: 100%;
+  padding: 20rpx;
+  height: 500px;
+}
+.movie-container {
+  display: inline-block;
+  width: 30%;
+  margin-bottom:30rpx;
+}

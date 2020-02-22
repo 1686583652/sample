@@ -1,0 +1,9 @@
+<!--pages/welcome/welcome.wxml-->
+
+<view class="contain">
+  <image src="/images/avatar/1.png" class="avatar"> </image>
+  <text class="moto">hello,七月</text>
+  <view class="journey-contain">
+    <button class="journey" wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">开启我的小程序之旅</button>
+  </view> 
+</view>

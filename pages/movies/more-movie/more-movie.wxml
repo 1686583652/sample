@@ -1,0 +1,9 @@
+<!--pages/movies/more-movie/more-movie.wxml-->
+<!-- <import src="../movie/movie-template.wxml"/>
+<view class="more-container">
+  <block wx:for="{{movies}}" wx:key="index" wx:for-item="movie">
+    <template is="movieTemplate" data="{{...movie}}"/>
+  </block>
+</view> -->
+<import src="../movie-grid/movie-grid.wxml"/>
+<template is="movieGridTemplate" data="{{movies}}" />
